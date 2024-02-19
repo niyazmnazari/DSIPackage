@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Analysis"
+authors = [
+    {name = "Niyaz Nazari", email = "niyaz.mnazari@gmail.com"},
+]
+description = "DSI Finial Assignment Python Package"
+version = "0.1.0"
+dependencies = ["matplotlib"]
+requires-python = ">=3.10.0"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.scripts]
+my_hello_world = "Analysis:Analysis"
